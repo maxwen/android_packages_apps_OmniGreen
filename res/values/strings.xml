@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2013 The OmniROM Project
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 2 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+	<string name="app_name">OmniGreen</string>
+	<string name="start_on_boot_title">Start on boot</string>
+	<string name="start_on_boot_summary">Start and enable on device boot</string>
+	<string name="settings_title">OmniGreen</string>
+	<string name="service_process_name"><xliff:g id="process">%1$s</xliff:g></string>
+	<string name="service_client_name"><xliff:g id="client_name">%1$s</xliff:g></string>
+	<string name="service_started_by_app">Started by app.</string>
+	<!-- Descriptive text of a running process: singular process, singular service. -->
+	<string name="running_processes_item_description_s_s"><xliff:g id="numprocess">%1$d</xliff:g>         process and <xliff:g id="numservices">%2$d</xliff:g> service</string>
+	<!-- Descriptive text of a running process: singular process, plural service. -->
+	<string name="running_processes_item_description_s_p"><xliff:g id="numprocess">%1$d</xliff:g>         process and <xliff:g id="numservices">%2$d</xliff:g> services</string>
+	<!-- Descriptive text of a running process: plural process, singular service. -->
+	<string name="running_processes_item_description_p_s"><xliff:g id="numprocess">%1$d</xliff:g>         processes and <xliff:g id="numservices">%2$d</xliff:g> service</string>
+	<!-- Descriptive text of a running process: plural process, plural service. -->
+	<string name="running_processes_item_description_p_p"><xliff:g id="numprocess">%1$d</xliff:g>         processes and <xliff:g id="numservices">%2$d</xliff:g> services</string>
+	<!-- Services settings screen, setting option name for the user to go to the screen to view running services -->
+	<string name="runningservices_settings_title">Running services</string>
+	<!-- Services settings screen, setting option summary for the user to go to the screen to view running services -->
+	<string name="runningservices_settings_summary">View and control currently running services</string>
+	<!-- Label for a service item when it is restarting -->
+	<string name="service_restarting">Restarting</string>
+	<!-- Label for a process item representing a background process -->
+	<string name="cached">Cached background process</string>
+	<!-- [CHAR LIMIT=25] Text shown when there are no services running -->
+	<string name="no_running_services">Nothing running.</string>
+
+</resources>
